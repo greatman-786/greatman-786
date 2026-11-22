@@ -26,9 +26,13 @@ A bilingual English/Urdu agent on a live phone number. Books appointments, quali
 
 Five Playwright tests covering login, cart and checkout on a demo storefront, plus a SQLite round-trip check, wired to a GitHub Actions workflow.
 
-**[AI Automation Projects](https://github.com/greatman-786/ai-automation-projects)**
+**[MarketMind](https://github.com/greatman-786/marketmind)**
 
-Seven working automations across n8n, Zapier, Make.com and Flowise — webhook-triggered lead qualification, a WhatsApp agent holding conversation state, email logging, and an RSS alert flow. Documented with screenshots from the live accounts they run in.
+A marketing copy generator that remembers what it wrote. Three drafts per request, tone presets, searchable history, CSV and Markdown export, per-user accounts. Next.js and TypeScript with Prisma underneath — SQLite locally, Postgres in production. [Live](https://marketmind-gray.vercel.app).
+
+**[n8n Agents](https://github.com/greatman-786?tab=repositories)**
+
+Four working agents — lead qualification, WhatsApp, email, content — each repo carrying the actual workflow export, not a screenshot. Import the JSON into your own n8n and it runs.
 
 ---
 
