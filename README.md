@@ -20,7 +20,7 @@ An evaluation framework for LLM output: factual accuracy, JSON schema validity, 
 
 **[AI Voice Agent](https://github.com/greatman-786/ai-voice-agent)**
 
-A bilingual English/Urdu agent on a live phone number. Books appointments, qualifies leads, escalates to a human, and logs every call. Shipped with 13 test cases and 5 documented defects — including a webhook reporting 52 consecutive successes while writing mostly empty rows. Nothing errored. I found it by checking the data rather than trusting the response.
+A bilingual English/Urdu agent on a live phone number. Books appointments, qualifies leads, escalates to a human, and logs every call. Shipped with 13 test cases and 5 documented defects — including a webhook reporting 52 consecutive successes while writing mostly empty rows. Nothing errored. I found it by checking the data rather than trusting the response. All three n8n workflows are in the repo as importable JSON.
 
 **[QA Portfolio](https://github.com/greatman-786/qa-portfolio)**
 
@@ -28,7 +28,7 @@ Five Playwright tests covering login, cart and checkout on a demo storefront, pl
 
 **[MarketMind](https://github.com/greatman-786/marketmind)**
 
-A marketing copy generator that remembers what it wrote. Three drafts per request, tone presets, searchable history, CSV and Markdown export, per-user accounts. Next.js and TypeScript with Prisma underneath — SQLite locally, Postgres in production. [Live](https://marketmind-gray.vercel.app).
+A marketing copy generator that remembers what it wrote. Three drafts per request, tone presets, searchable history, CSV and Markdown export, per-user accounts. Next.js and TypeScript with Prisma underneath — SQLite locally, Postgres in production.
 
 **[n8n Agents](https://github.com/greatman-786?tab=repositories)**
 
