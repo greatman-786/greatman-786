@@ -10,21 +10,25 @@ Right now I'm writing and publishing technical content for a cybersecurity clien
 
 ### Things worth looking at
 
-**[AI Voice Agent](https://github.com/greatman-786/ai-voice-agent)**
+**[Accessibility Audit Portfolio](https://github.com/greatman-786/accessibility-audit-portfolio)**
 
-A bilingual English/Urdu agent on a live phone number. Books appointments, qualifies leads, escalates to a human, and logs every call. It holds 22 behaviour rules. Shipped with 13 test cases and 5 documented defects — including a webhook firing in bursts and quietly writing 52 empty records to the database. Nothing errored. I found it by checking the data rather than trusting the response.
+WCAG 2.1 AA audits of nine production sites — BBC, Amazon, Emirates, LinkedIn, AliExpress and others. 174 issues documented with severity, affected elements and what to change. AliExpress prices sit at 4.39:1 contrast against a 4.5:1 requirement. noon.com has 24 category links with no accessible name. Every number is traceable to a file in the repo, and the method section says plainly that automated scanning catches only 30–40% of real barriers.
 
 **[AI Testing Portfolio](https://github.com/greatman-786/ai-testing-portfolio)**
 
-An evaluation framework for LLM output: factual accuracy, JSON schema validity, latency, hallucination detection. Mocked responses instead of live API calls, so a full run finishes in under half a second per commit.
+An evaluation framework for LLM output: factual accuracy, JSON schema validity, latency, hallucination detection. Runs against recorded responses by default, so the suite finishes in under half a second; live API calls run only on request.
+
+**[AI Voice Agent](https://github.com/greatman-786/ai-voice-agent)**
+
+A bilingual English/Urdu agent on a live phone number. Books appointments, qualifies leads, escalates to a human, and logs every call. Shipped with 13 test cases and 5 documented defects — including a webhook reporting 52 consecutive successes while writing mostly empty rows. Nothing errored. I found it by checking the data rather than trusting the response.
 
 **[QA Portfolio](https://github.com/greatman-786/qa-portfolio)**
 
-Playwright and PyTest suites running on every push through GitHub Actions. Public, green [run history](https://github.com/greatman-786/qa-portfolio/actions) — the point being you can check rather than take my word for it.
+Five Playwright tests covering login, cart and checkout on a demo storefront, plus a SQLite round-trip check, wired to a GitHub Actions workflow.
 
 **[AI Automation Projects](https://github.com/greatman-786/ai-automation-projects)**
 
-Production n8n workflows: webhook-triggered lead pipelines, a WhatsApp agent holding conversation state, automated email follow-up. Retry logic and duplicate-event filtering on all of them, because unattended means unattended.
+Seven working automations across n8n, Zapier, Make.com and Flowise — webhook-triggered lead qualification, a WhatsApp agent holding conversation state, email logging, and an RSS alert flow. Documented with screenshots from the live accounts they run in.
 
 ---
 
@@ -33,7 +37,7 @@ Production n8n workflows: webhook-triggered lead pipelines, a WhatsApp agent hol
 - **AI** — Claude · Gemini · LangChain · ChromaDB · RAG · vector embeddings · prompt engineering · LLM evaluation
 - **Automation** — n8n · Zapier · Make.com · webhooks · REST APIs · Vapi
 - **Python** — NumPy · Pandas · Matplotlib · Seaborn · FastAPI · BeautifulSoup
-- **Testing** — Playwright · PyTest · Postman · SQL validation
+- **Testing** — PyTest · Playwright · axe DevTools · WCAG 2.1 AA · test case design · defect reporting
 - **Build & deploy** — Docker · GitHub Actions · CI/CD · Vercel
 
 ---
